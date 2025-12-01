@@ -1,0 +1,23 @@
+# 虚拟环境（根据你的环境类型选择）
+venv/               
+env/                 
+*.conda_env/         
+__pycache__/         
+*.py[cod]           
+
+# 数据集（根据你的数据集目录名）
+datasets/             
+data/                
+test_samples/
+*.zip                
+*.tar.gz            
+
+# 模型权重（若有）
+weights/         
+*.pt                 
+*.pth                
+*.h5                 
+
+# 其他无需推送的内容
+*.log                
+.vscode/             
