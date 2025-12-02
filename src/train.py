@@ -63,7 +63,7 @@ def train_baseline_model():
         print(f"✅ 最佳权重已移动至: {target_weights_path.resolve()}")
     else:
         # 如果文件不存在，则报告错误并指出原因
-        print(f"⚠️ 警告：未在预期位置找到权重文件: {best_weights_path.resolve()}")
+        print(f"警告：未在预期位置找到权重文件: {best_weights_path.resolve()}")
         print("请检查训练日志，确认训练是否成功或中途失败。")
 
 if __name__ == '__main__':
